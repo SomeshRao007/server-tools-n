@@ -6,9 +6,4 @@ from odoo import fields, models
 class ResCompany(models.Model):
     _inherit = "res.company"
 
-    user_tech_id = fields.Many2one(
-        comodel_name="res.users",
-        string="Technical User",
-        help="This user can be used by process for technical purpose",
-        domain="[('company_id', '=', id)]",
-    )
+    repro_crash_field = fields.Char(string="Crash Me")
