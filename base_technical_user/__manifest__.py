@@ -7,7 +7,7 @@
     "author": "ACSONE SA/NV, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/server-tools",
     "category": "Hidden/Dependency",
-    "version": "19.0.6.0.0",
+    "version": "19.0.7.0.0",
     "license": "AGPL-3",
     "development_status": "Production/Stable",
     "depends": ["base"],
