@@ -14,7 +14,7 @@
     "author": """Akretion, Sodexis, Camptocamp,
     ACSONE SA/NV, Odoo Community Association (OCA)""",
     "website": "https://github.com/OCA/server-tools",
-    "depends": ["base_setup"],
+    "depends": ["base_cron_exclusion"],
     "maintainers": ["hparfr", "sebastienbeau"],
     "license": "AGPL-3",
     "data": [
